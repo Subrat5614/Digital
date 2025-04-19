@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BhadraTestSuite" parallel="false">
+  <test name="BhadraFullTest">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testCases.BhadraPageLoadTest"/>
+      <!-- <class name="testCases.Scheduler_CRUD"/> -->
+       <!-- <class name="testCases.User_CRUD"/>
+      <class name="testCases.Event_CRUD"/>
+      <class name="testCases.MasterData_CRUD"/>
+      <class name="testCases.Dimension_CRUD"/>
+      <class name="testCases.Plans_CRUD"/>
+      <class name="testCases.Shift_CRUD"/>
+      <class name="testCases.ProductionData_CRUD"/>
+      <class name="testCases.LostHours_CRUD"/>
+      <class name="testCases.PowerUsage_CRUD"/>
+      <class name="testCases.Seconds_CRUD"/>  -->
+    </classes>
+  </test>
+</suite>
